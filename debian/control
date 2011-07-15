@@ -1,0 +1,14 @@
+Source: balance-daemon
+Section: net
+Priority: extra
+Maintainer: Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.2
+
+Package: balance-daemon
+Architecture: all
+Depends: ${misc:Depends}, balance
+Description: Init scripts for balance
+ Scripts and configuration files to run the balance TCP proxy as a
+ daemon in the background. This makes it easier to run it in a
+ standard, permanent configuration.

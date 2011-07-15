@@ -1,0 +1,9 @@
+# Set the user to run balance under
+USER="root"
+
+# Set this to yes to run the daemon
+RUN="no"
+
+# The arguments to the daemon
+#DAEMON_ARGS="<port> <backendhost>:<port>"
+DAEMON_ARGS=""
