@@ -1,3 +1,9 @@
+balance-daemon (0.1.1) unstable; urgency=high
+
+  * Fix the stop action of the init script
+
+ -- Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>  Sun, 24 Jul 2011 20:30:53 +0200
+
 balance-daemon (0.1.0) unstable; urgency=low
 
   * Initial release.

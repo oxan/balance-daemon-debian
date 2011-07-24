@@ -34,7 +34,7 @@ case "$1" in
         ;;
   stop)
         log_daemon_msg "Stopping TCP proxy" "balance"
-        start-stop-daemon --stop --pidfile $PIDFILE --name dir2mail --user $USER --oknodo --quiet --retry 5
+        start-stop-daemon --stop --name balance --user $USER --oknodo --quiet --retry 5
         log_end_msg "$?"
         ;;
   reload|restart|force-reload)
