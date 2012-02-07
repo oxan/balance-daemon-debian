@@ -2,7 +2,7 @@ Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=207
 Source: svn://svn.lan/server/debian-packaging/balance-daemon/
 
 Files: *
-Copyright: 2011, Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
+Copyright: 2011, 2012, Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
 License: GPL-3+
 
 License: GPL-3+
@@ -19,6 +19,5 @@ License: GPL-3+
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  .
- On Debian systems, the full text of the GNU General Public
- License version 3 can be found in the file
- `/usr/share/common-licenses/GPL-3'.
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
