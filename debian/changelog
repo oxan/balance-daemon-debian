@@ -1,7 +1,7 @@
 balance-daemon (0.1.2) UNRELEASED; urgency=low
 
-  * Update DEP5 format
-  * Add VCS fields to debian/control
+  * Update to final DEP-5 format
+  * Add Vcs fields to debian/control
   * Create a pidfile
 
  -- Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>  Tue, 07 Feb 2012 17:16:06 +0100

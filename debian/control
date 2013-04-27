@@ -4,8 +4,8 @@ Priority: extra
 Maintainer: Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
 Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.2
-Vcs-Svn: svn://svn.lan/server/debian-packaging/balance-daemon/
-Vcs-Browser: http://www.tools.lan/websvn/listing.php?repname=server&path=%2Fdebian-packaging%2Fbalance-daemon%2F
+Vcs-Git: http://git.lan/packages/balance-daemon.git
+Vcs-Browser: https://git.lan/?p=packages/balance-daemon.git;a=summary
 
 Package: balance-daemon
 Architecture: all

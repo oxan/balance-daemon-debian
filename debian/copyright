@@ -1,8 +1,8 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=207
-Source: svn://svn.lan/server/debian-packaging/balance-daemon/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: http://git.lan/packages/balance-daemon.git
 
 Files: *
-Copyright: 2011, 2012, Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
+Copyright: 2011, 2012, 2013, Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
 License: GPL-3+
 
 License: GPL-3+
