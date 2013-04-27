@@ -1,0 +1,8 @@
+debian/*.debhelper.log
+debian/*.debhelper
+debian/*.substvars
+debian/files
+debian/patches/
+debian/tmp/
+
+debian/balance-daemon/
