@@ -1,10 +1,10 @@
-balance-daemon (0.1.2) UNRELEASED; urgency=low
+balance-daemon (0.1.2) unstable; urgency=low
 
   * Update to final DEP-5 format
   * Add Vcs fields to debian/control
   * Bump Standards-Version to 3.9.4, no changes needed
 
- -- Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>  Tue, 07 Feb 2012 17:16:06 +0100
+ -- Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>  Mon, 27 May 2013 23:34:11 +0200
 
 balance-daemon (0.1.1) unstable; urgency=high
 
