@@ -13,7 +13,6 @@ set -e
 
 # Variables
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
-PIDFILE=/var/run/balance.pid
 DAEMON=/usr/sbin/balance
 USER="root"
 DAEMON_ARGS=""
@@ -30,12 +29,12 @@ fi
 case "$1" in
   start)
         log_daemon_msg "Starting TCP proxy" "balance"
-        start-stop-daemon --start --name balance --pidfile $PIDFILE --make-pidfile --user $USER --oknodo --quiet --chuid $USER --exec $DAEMON -- $DAEMON_ARGS
+        start-stop-daemon --start --name balance --user $USER --oknodo --quiet --chuid $USER --exec $DAEMON -- $DAEMON_ARGS
         log_end_msg $?
         ;;
   stop)
         log_daemon_msg "Stopping TCP proxy" "balance"
-        start-stop-daemon --stop --name balance --pidfile $PIDFILE --user $USER --oknodo --quiet --retry 5
+        start-stop-daemon --stop --name balance --user $USER --oknodo --quiet --retry 5
         log_end_msg "$?"
         ;;
   reload|restart|force-reload)
