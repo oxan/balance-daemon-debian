@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: http://git.lan/packages/balance-daemon.git
+Source: https://github.com/oxan/balance-daemon-debian
 
 Files: *
 Copyright: 2011, 2012, 2013, Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
